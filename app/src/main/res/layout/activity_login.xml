@@ -83,17 +83,15 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_height="60dp"
-        android:layout_width="0dp"
+        style="@style/buttonflat"
         android:text="login"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@id/til2" />
 
     <Button
-        android:id="@+id/buttoninverse"
-        android:layout_height="60dp"
-        android:layout_width="0dp"
+        android:id="@+id/buttonoutline"
+        style="@style/buttonoutlined"
         android:text="signup"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
