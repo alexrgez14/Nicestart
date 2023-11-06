@@ -142,6 +142,7 @@
     <Button
         android:id="@+id/button"
         style="@style/buttonflat"
+        android:onClick="openMain"
         android:text="signup"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
