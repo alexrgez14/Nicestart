@@ -150,6 +150,7 @@
     <Button
         android:id="@+id/buttonoutline"
         style="@style/buttonoutlined"
+        android:onClick="openLogin"
         android:text="login"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"

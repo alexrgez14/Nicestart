@@ -92,6 +92,7 @@
     <Button
         android:id="@+id/buttonoutline"
         style="@style/buttonoutlined"
+        android:onClick="openRegister"
         android:text="signup"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
