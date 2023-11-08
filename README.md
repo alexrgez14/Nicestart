@@ -23,7 +23,7 @@ and
 This activity is the login screen for our app, with different text areas
 and buttons to let the users log in to the application.
 
-![Login activity preview](./img/Screenshot_login_1.png)
+![Login activity - Portrait](./img/Screenshot_login_1.png)
 
 Although this is not the main activity, it´s the view that shows on
 screen the first every time you open the app. This is achieved due to
@@ -42,4 +42,9 @@ this block of code in the Android Manifest file:
         </activity>
 ```
 
-dasda
+> The intent-filter allows us to decide what activity we want to launch
+> the first when we launch the application.
+
+There is also a view of this activity on landscape mode!
+
+![Login activity - Landscape](./img/Screenshot_login_land_1.png)
