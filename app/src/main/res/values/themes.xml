@@ -2,8 +2,8 @@
     <!-- Base application theme without action bar. -->
     <style name="Theme.Nicestart.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -27,5 +27,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Navigation bar theme -->
+    <style name="BottomNavigation">
+        <item name="android:background">@color/purple_200</item>
+        <item name="itemIconTint">@color/fucsia_700</item>
+        <item name="itemTextColor">@color/fucsia_700</item>
     </style>
 </resources>
