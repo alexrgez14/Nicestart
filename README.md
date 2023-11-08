@@ -23,7 +23,7 @@ and
 This activity is the login screen for our app, with different text areas
 and buttons to let the users log in to the application.
 
-[Login activity preview](./img/Screenshot_login_1.png)
+![Login activity preview](./img/Screenshot_login_1.png)
 
 Although this is not the main activity, it´s the view that
 shows on screen the first every time you open the app. This is achieved
