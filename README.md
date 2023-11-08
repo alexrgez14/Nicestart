@@ -25,7 +25,21 @@ and buttons to let the users log in to the application.
 
 ![Login activity preview](./img/Screenshot_login_1.png)
 
-Although this is not the main activity, it´s the view that
-shows on screen the first every time you open the app. This is achieved
-due to this block of code in the manifest file:
+Although this is not the main activity, it´s the view that shows on
+screen the first every time you open the app. This is achieved due to
+this block of code in the Android Manifest file:
 
+```xml
+        <activity
+             android:name=".Login"
+             android:exported="true"
+             android:theme="@style/Theme.Nicestart.NoActionBar">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+```
+
+dasda
