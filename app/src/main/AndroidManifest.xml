@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,11 +15,7 @@
         android:theme="@style/Theme.Nicestart.DarkActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".Register"
-            android:exported="true"
-            android:parentActivityName=".Login" />
-        <activity
-            android:name=".Login"
+            android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.Nicestart.NoActionBar">
             <intent-filter>
@@ -26,6 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Register"
+            android:exported="true"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Theme.Nicestart.NoActionBar" />
         <activity
             android:name=".LoginAlter"
             android:exported="true" />
