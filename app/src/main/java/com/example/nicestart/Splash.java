@@ -33,6 +33,12 @@ public class Splash extends AppCompatActivity {
                 .placeholder((new ColorDrawable(this.getResources().getColor(R.color.purple_200)))) // Añadir un color donde vaya la imagen para manejar lo que pasa en ese espacio hasta que la imagen es cargada
                 .into(mBackgroundSplash);
 
+        Glide.with(this)
+                .load(R.drawable.ic_thunder)
+                .transition(DrawableTransitionOptions.withCrossFade(2000))
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(mLogo);
+
         Animation blink = AnimationUtils.loadAnimation(this, R.anim.set_animation1);
         mLogo.startAnimation(blink);
     }

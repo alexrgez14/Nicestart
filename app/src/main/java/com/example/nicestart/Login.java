@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 public class Login extends AppCompatActivity {
 
@@ -17,10 +18,17 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         ImageView mGirl = findViewById(R.id.girl);
+        ImageView mLogo = findViewById(R.id.logo);
 
         Glide.with(this)
                 .load(R.drawable.girl)
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(mGirl);
+
+        Glide.with(this)
+                .load(R.drawable.ic_thunder)
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(mLogo);
     }
 
     public void openMain(View v) {
