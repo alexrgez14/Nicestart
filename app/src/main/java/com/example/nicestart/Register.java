@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -29,6 +31,9 @@ public class Register extends AppCompatActivity {
                 .load(R.drawable.ic_thunder)
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(mLogo);
+
+        Animation blink = AnimationUtils.loadAnimation(this, R.anim.set_animation1);
+        mLogo.startAnimation(blink);
     }
 
     public void openMain(View v) {
