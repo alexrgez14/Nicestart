@@ -42,6 +42,7 @@ dependencies {
     implementation("androidx.navigation:navigation-ui:2.5.3")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.airbnb.android:lottie:6.1.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
