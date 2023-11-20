@@ -24,7 +24,6 @@ public class Splash extends AppCompatActivity {
         openApp();
 
         ImageView mBackgroundSplash = findViewById(R.id.background_splash);
-        ImageView mLogo = findViewById(R.id.logo);
 
         Glide.with(this)
                 .load("https://wallpapercave.com/wp/wp3937417.png") // src o url de la imagen
@@ -33,15 +32,6 @@ public class Splash extends AppCompatActivity {
                 .diskCacheStrategy(DiskCacheStrategy.ALL) // Almacenar la imagen en caché para que tarde menos en ser cargada a partir del primer intento
                 .placeholder((new ColorDrawable(this.getResources().getColor(R.color.purple_200)))) // Añadir un color donde vaya la imagen para manejar lo que pasa en ese espacio hasta que la imagen es cargada
                 .into(mBackgroundSplash);
-
-        Glide.with(this)
-                .load(R.drawable.ic_thunder)
-                .transition(DrawableTransitionOptions.withCrossFade(2000))
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(mLogo);
-
-        Animation blink = AnimationUtils.loadAnimation(this, R.anim.set_animation1);
-        mLogo.startAnimation(blink);
     }
 
     private void openApp() {
