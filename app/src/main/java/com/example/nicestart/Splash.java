@@ -26,7 +26,7 @@ public class Splash extends AppCompatActivity {
         ImageView mBackgroundSplash = findViewById(R.id.background_splash);
 
         Glide.with(this)
-                .load("https://wallpapercave.com/wp/wp3937417.png") // src o url de la imagen
+                .load("https://images.unsplash.com/photo-1516087010501-d0768e4e7f9c?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1516087010501-d0768e4e7f9c?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") // src o url de la imagen
                 .transition(DrawableTransitionOptions.withCrossFade(2000)) // Transición, en este caso con crossfade
                 .centerCrop() // Centrar la imagen y recortar los bordes
                 .diskCacheStrategy(DiskCacheStrategy.ALL) // Almacenar la imagen en caché para que tarde menos en ser cargada a partir del primer intento
