@@ -7,13 +7,15 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/text"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="These people do not exist..."
         android:textColor="@color/purple_500"
         android:textSize="30sp"
-        android:text="Alarms\nWorking on here too..." />
+        android:onClick="openNoPeople"/>
 
 </FrameLayout>

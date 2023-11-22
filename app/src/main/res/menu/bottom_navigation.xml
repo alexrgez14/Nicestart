@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/firstFragment"
+        android:id="@+id/nicestart"
         android:icon="@drawable/ic_thunder"
         android:title="Nicestart"/>
     <item
         android:id="@+id/secondFragment"
-        android:icon="@android:drawable/ic_input_add"
+        android:icon="@drawable/plus_pequeno"
         android:title="New"/>
     <item
-        android:id="@+id/thirdFragment"
-        android:icon="@android:drawable/ic_lock_idle_alarm"
-        android:title="Alarms"/>
+        android:id="@+id/nopeople"
+        android:icon="@drawable/picpersonas_llenas"
+        android:title="No people"/>
 </menu>

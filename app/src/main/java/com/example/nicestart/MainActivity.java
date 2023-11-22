@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -30,14 +31,16 @@ public class MainActivity extends AppCompatActivity {
     private final BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            if (item.getItemId()==R.id.firstFragment) {
+            if (item.getItemId()==R.id.nicestart) {
                 loadFragment(firstFragment);
                 return true;
             } else if (item.getItemId()==R.id.secondFragment) {
                 loadFragment(secondFragment);
                 return true;
-            } else if (item.getItemId()==R.id.thirdFragment) {
+            } else if (item.getItemId()==R.id.nopeople) {
                 loadFragment(thirdFragment);
+                Intent intent = new Intent(MainActivity.this, Nopeople.class);
+                startActivity(intent);
                 return true;
             }
             return false;
