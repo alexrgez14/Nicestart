@@ -10,6 +10,8 @@ and
 
 **I've made a pull request to [this repository](https://github.com/atomms/First.git), on the [alejandro23](https://github.com/atomms/First/tree/alejandro23) branch.**
 
+**Click [here]() to watch a screen recording of the full functioning application.**
+
 **There are more screenshots and screen recordings of the functions and
 views of the application, that can be found at the
 [img folder](./img)!**
@@ -21,7 +23,7 @@ views of the application, that can be found at the
    2. **[Login activity](#login-activity).**
    3. **[Register activity](#register-activity).**
    4. **[Main activity](#main-activity).**
-   5. **[No people activity](nopeople-activity).**
+   5. **[No people activity](#no-people-activity).**
 2. [x] Landscape layouts, to get a nice experience even in landscape
        mode.
 3. [x] Editable text areas.
@@ -58,33 +60,21 @@ cross fade animation, and an animated thunder icon like the logo of the app.
 
 ## Login activity
 This activity is the login screen for our app, with different text areas
-and buttons to let the users log in to the application.
+and buttons to let the users log in to the application. It has an
+animated thunder (the logo of the app) that blinks.
 
 ![Login activity - Portrait](./img/Screenshot_login_1.png)
-
-Although this is not the main activity, it´s the view that shows on
-screen the first every time you open the app.
-
-There is also a view of this activity on landscape mode!
-
-![Login activity - Landscape](./img/Screenshot_login_land_1.png)
 
 ## Register activity
 
 This activity is the register screen for the users to create an account.
-From here we can go back to the Login activity or we can go to the Main
-activity, using the **buttons** below. Also we can go back to Login
-using the arrow of the [action bar](#themes---action-bars) on the upper
-part of the screen.
+From here we can go back to the Login activity or to the Main activity,
+using the **buttons** below. Also we can go back to Login using the
+arrow of the [action bar](#themes---action-bars) on the upper part of
+the screen. It also has the animated thunder logo on the top of the
+screen.
 
-![Register activity - Portrait](./img/Screenshot_signup_1.png)
-
-There is also a view of this activity on landscape mode!
-
-![Register activity - Landscape](./img/Screenshot_signup_land_1.png)
-
->Here, we can see the different constraints and GuideLines used to create
->this screen.
+![Register activity - Portrait](./img/Screenshot_register_1.png)
 
 ## Main activity
 
@@ -97,13 +87,15 @@ dark mode that changes the colors of it´s palette.
 
 ![Main activity - Portrait - Ligth](./img/Screenshot_main_1.png)
 
-![Main activity - Portrait - Night](./img/Screenshot_main_2.png)
-
-There is also a view of this activity on landscape mode!
+![Main activity - Portrait - Night](./img/Screenshot_main_dark_1.png)
 
 ![Main activity - Landscape - Light](./img/Screenshot_main_land_1.png)
 
-![Main activity - Landscape - Night](./img/Screenshot_main_land_2.png)
+![Main activity - Landscape - Night](./img/Screenshot_main_land_dark_1.png)
+
+## No people activity
+
+<!-- TODO: Working on here! -->
 
 ## Themes - Action bars
 
