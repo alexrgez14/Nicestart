@@ -2,11 +2,13 @@
 > Like it´s name says, it´s a starting point to develop some really nice
 > interfaces.
 
-**Nicestart** consists of a repository that I´ll be using to learn some
+**Nicestart** consists of an app that I´ll be developing to learn some
 cool new stuff about
 [interfaces](https://www.sciencedirect.com/topics/computer-science/interface-development)
 and
 [Android development](https://en.wikipedia.org/wiki/Android_software_development#:~:text=Android%20software%20development%20is%20the,other%20languages%20is%20also%20possible.).
+
+**I've made a pull request to [this repository](https://github.com/atomms/First.git), on the [alejandro23](https://github.com/atomms/First/tree/alejandro23) branch.**
 
 **There are more screenshots and screen recordings of the functions and
 views of the application, that can be found at the
@@ -15,14 +17,19 @@ views of the application, that can be found at the
 ##
 ### Features list
 1. [x] Different activities and layouts:
-   1. **[Login activity](#login-activity).**
-   2. **[Register activity](#register-activity).**
-   3. **[Main activity](#main-activity).**
-2. [x] Landscape qualifiers, to get a nice experience even in landscape
+   1. **[Splash](#splash-activity).**
+   2. **[Login](#login-activity).**
+   3. **[Register](#register-activity).**
+   4. **[Main](#main-activity).**
+   5. **[No people](nopeople-activity).**
+2. [x] Landscape layouts, to get a nice experience even in landscape
        mode.
 3. [x] Editable text areas.
 4. [x] Buttons that allow navigation between different activities.
-5. [ ] Working and learning new things to get more awesome features...
+5. [x] Unique and colorful animations.
+6. [x] Bottom navigation bar, to allow an intuitive navigation across the main activity.
+7. [x] SwipeRefresh actions.
+8. [ ] Working and learning new things to get more awesome features...
 
 ## Login activity
 This activity is the login screen for our app, with different text areas
