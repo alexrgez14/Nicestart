@@ -17,19 +17,44 @@ views of the application, that can be found at the
 ##
 ### Features list
 1. [x] Different activities and layouts:
-   1. **[Splash](#splash-activity).**
-   2. **[Login](#login-activity).**
-   3. **[Register](#register-activity).**
-   4. **[Main](#main-activity).**
-   5. **[No people](nopeople-activity).**
+   1. **[Splash activity](#splash-activity).**
+   2. **[Login activity](#login-activity).**
+   3. **[Register activity](#register-activity).**
+   4. **[Main activity](#main-activity).**
+   5. **[No people activity](nopeople-activity).**
 2. [x] Landscape layouts, to get a nice experience even in landscape
        mode.
 3. [x] Editable text areas.
 4. [x] Buttons that allow navigation between different activities.
-5. [x] Unique and colorful animations.
-6. [x] Bottom navigation bar, to allow an intuitive navigation across the main activity.
-7. [x] SwipeRefresh actions.
-8. [ ] Working and learning new things to get more awesome features...
+5. [x] Images loaded with Glide.
+6. [x] Unique and colorful animations, using Lottie.
+7. [x] Bottom navigation bar, to allow an intuitive navigation across the main activity.
+8. [x] SwipeRefresh actions.
+9. [ ] Working and learning new things to get more awesome features...
+
+## Splash activity
+This activity is the one that shows up first when we open the app. This is achieved due to
+this block of code at the Android Manifest file:
+
+```xml
+<activity
+     android:name=".Splash"
+     android:exported="true"
+     android:theme="@style/Theme.Nicestart.NoActionBar">
+     <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+     </intent-filter>
+</activity>
+```
+
+> The intent-filter allows us to decide what activity we want to launch
+> the first when we open the application.
+
+This activity is like a loading and welcome screen for our app. It contains a background image with a
+cross fade animation, and an animated thunder icon like the logo of the app.
+
+![Splash activity](./img/Screenshot_splash_1.png)
 
 ## Login activity
 This activity is the login screen for our app, with different text areas
@@ -38,24 +63,7 @@ and buttons to let the users log in to the application.
 ![Login activity - Portrait](./img/Screenshot_login_1.png)
 
 Although this is not the main activity, it´s the view that shows on
-screen the first every time you open the app. This is achieved due to
-this block of code in the Android Manifest file:
-
-```xml
-<activity
-     android:name=".Login"
-     android:exported="true"
-     android:theme="@style/Theme.Nicestart.NoActionBar">
-     <intent-filter>
-         <action android:name="android.intent.action.MAIN" />
-
-        <category android:name="android.intent.category.LAUNCHER" />
-     </intent-filter>
-</activity>
-```
-
-> The intent-filter allows us to decide what activity we want to launch
-> the first when we launch the application.
+screen the first every time you open the app.
 
 There is also a view of this activity on landscape mode!
 
