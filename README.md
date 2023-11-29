@@ -88,11 +88,9 @@ This activity has a [navigation bar](#navigation-bar) to navigate
 between 3 different sections. It also has a specific [theme](#themes---dark-and-light-modes) for
 dark mode that changes the colors of it´s palette.
 
-![Main activity - Portrait - Ligth](./img/Screenshot_main_1.png)
+https://github.com/alexrgez14/Nicestart/assets/131858696/f277e265-0d3c-4ac0-b33f-507d466b3f4b
 
 ![Main activity - Portrait - Night](./img/Screenshot_main_dark_1.png)
-
-![Main activity - Landscape - Light](./img/Screenshot_main_land_1.png)
 
 ![Main activity - Landscape - Night](./img/Screenshot_main_land_dark_1.png)
 
