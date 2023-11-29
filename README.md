@@ -110,6 +110,10 @@ the page, a Toast message also appears on screen.
 
 https://github.com/alexrgez14/Nicestart/assets/131858696/4c4cf7b5-4665-4168-b81f-ec41ec3f9e8f
 
+If we go back from here, this message will stand on this page:
+
+![No people fragment](./img/Screenshot_Nopeople_1.png)
+
 ## Themes - Action bars
 
 I´ve applied different themes to my activities, allowing them to have or
