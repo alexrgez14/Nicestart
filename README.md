@@ -182,7 +182,7 @@ the colors of the palette when the device is on dark mode:
 </style>
 ```
 
-## Navigation bar
+## Bottom navigation bar
 
 I watched a video on how to do a navigation bar with different styles,
 so this is the style of the one I´ve made, using the colors of the
