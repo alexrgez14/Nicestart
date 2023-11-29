@@ -59,7 +59,7 @@ cross fade animation, and an animated thunder icon like the logo of the app.
 
 ![Splash activity](./img/Screenshot_splash_1.png)
 
-[Splash video](https://github.com/alexrgez14/Nicestart/assets/131858696/18c529e5-7e78-4d1c-b031-a918000dc5e3)
+https://github.com/alexrgez14/Nicestart/assets/131858696/18c529e5-7e78-4d1c-b031-a918000dc5e3
 
 ## Login activity
 This activity is the login screen for our app, with different text areas
