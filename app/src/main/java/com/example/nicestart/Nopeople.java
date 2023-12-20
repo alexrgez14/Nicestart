@@ -1,6 +1,7 @@
 package com.example.nicestart;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.os.Bundle;
@@ -10,8 +11,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.widget.AdapterView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class Nopeople extends AppCompatActivity {
@@ -60,11 +59,11 @@ public class Nopeople extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.item1) {
-            Toast toast = Toast.makeText(this,"Image copied successfully", Toast.LENGTH_LONG );
+            Toast toast = Toast.makeText(this, "Image copied successfully", Toast.LENGTH_LONG);
             toast.show();
             return true;
         } else if (item.getItemId() == R.id.item2) {
-            Toast toast2 = Toast.makeText(this,"Image downloaded", Toast.LENGTH_LONG );
+            Toast toast2 = Toast.makeText(this, "Image downloaded", Toast.LENGTH_LONG);
             toast2.show();
             return true;
         } else {
